@@ -1,0 +1,32 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Example - example-guide-concepts-2-production</title>
+    <script src="js/lib/angular.min.js"></script>
+    <script src="js/lib/ui-bootstrap-tpls-2.5.0.min.js"></script>
+    <script src="js/lib/angular-route.js"></script>
+    <script src="js/app/app.js"></script>
+    <script src="js/app/HomeController.js"></script>
+    <script src="js/app/HomeService.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/app/app.css"/>
+
+</head>
+<body>
+<div ng-app="app" ng-controller="HomeController">
+
+    <div class="dpstopnav">
+        <div class="dropdown">
+            <button class="dropbtn">Validate String</button>
+            <div class="dropdown-content">
+                <a href="#" ng-click="validate()">Validate String</a>
+            </div>
+        </div>
+
+    <div ng-include="'views/error.html'"></div>
+    <ng-view></ng-view>
+    <div ui-view></div>
+</div>
+</body>
+</html>
