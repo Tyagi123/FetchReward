@@ -1,0 +1,5 @@
+Steps to follow :
+
+1. Checkout code and build in intellij/eclipse
+2. Run SpringBootCRUDApp class , it will start spring boot in build server
+3. Enter http://localhost:8080/FetchRewards/ url in browser
